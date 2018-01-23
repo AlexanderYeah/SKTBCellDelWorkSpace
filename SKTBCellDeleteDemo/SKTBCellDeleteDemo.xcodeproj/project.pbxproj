@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032406012016CF62000DD741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406002016CF62000DD741 /* main.m */; };
+		032406042016CF62000DD741 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406032016CF62000DD741 /* AppDelegate.m */; };
+		032406072016CF62000DD741 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406062016CF62000DD741 /* ViewController.m */; };
+		0324060C2016CF62000DD741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0324060B2016CF62000DD741 /* Assets.xcassets */; };
+		0324060F2016CF62000DD741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0324060D2016CF62000DD741 /* LaunchScreen.storyboard */; };
+		0324061A2016CF62000DD741 /* SKTBCellDeleteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406192016CF62000DD741 /* SKTBCellDeleteDemoTests.m */; };
+		032406252016CF62000DD741 /* SKTBCellDeleteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406242016CF62000DD741 /* SKTBCellDeleteDemoUITests.m */; };
+		032406372016D4A4000DD741 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406362016D4A4000DD741 /* OneViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032406162016CF62000DD741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032405F42016CF61000DD741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032405FB2016CF61000DD741;
+			remoteInfo = SKTBCellDeleteDemo;
+		};
+		032406212016CF62000DD741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032405F42016CF61000DD741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032405FB2016CF61000DD741;
+			remoteInfo = SKTBCellDeleteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032405FC2016CF61000DD741 /* SKTBCellDeleteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTBCellDeleteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032406002016CF62000DD741 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		032406022016CF62000DD741 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		032406032016CF62000DD741 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		032406052016CF62000DD741 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		032406062016CF62000DD741 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0324060B2016CF62000DD741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0324060E2016CF62000DD741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		032406102016CF62000DD741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032406152016CF62000DD741 /* SKTBCellDeleteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKTBCellDeleteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032406192016CF62000DD741 /* SKTBCellDeleteDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTBCellDeleteDemoTests.m; sourceTree = "<group>"; };
+		0324061B2016CF62000DD741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032406202016CF62000DD741 /* SKTBCellDeleteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKTBCellDeleteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032406242016CF62000DD741 /* SKTBCellDeleteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTBCellDeleteDemoUITests.m; sourceTree = "<group>"; };
+		032406262016CF62000DD741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032406352016D4A4000DD741 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		032406362016D4A4000DD741 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032405F92016CF61000DD741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032406122016CF62000DD741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324061D2016CF62000DD741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032405F32016CF61000DD741 = {
+			isa = PBXGroup;
+			children = (
+				032405FE2016CF61000DD741 /* SKTBCellDeleteDemo */,
+				032406182016CF62000DD741 /* SKTBCellDeleteDemoTests */,
+				032406232016CF62000DD741 /* SKTBCellDeleteDemoUITests */,
+				032405FD2016CF61000DD741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032405FD2016CF61000DD741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032405FC2016CF61000DD741 /* SKTBCellDeleteDemo.app */,
+				032406152016CF62000DD741 /* SKTBCellDeleteDemoTests.xctest */,
+				032406202016CF62000DD741 /* SKTBCellDeleteDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032405FE2016CF61000DD741 /* SKTBCellDeleteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				032406022016CF62000DD741 /* AppDelegate.h */,
+				032406032016CF62000DD741 /* AppDelegate.m */,
+				032406052016CF62000DD741 /* ViewController.h */,
+				032406062016CF62000DD741 /* ViewController.m */,
+				032406352016D4A4000DD741 /* OneViewController.h */,
+				032406362016D4A4000DD741 /* OneViewController.m */,
+				0324060B2016CF62000DD741 /* Assets.xcassets */,
+				0324060D2016CF62000DD741 /* LaunchScreen.storyboard */,
+				032406102016CF62000DD741 /* Info.plist */,
+				032405FF2016CF61000DD741 /* Supporting Files */,
+			);
+			path = SKTBCellDeleteDemo;
+			sourceTree = "<group>";
+		};
+		032405FF2016CF61000DD741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032406002016CF62000DD741 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		032406182016CF62000DD741 /* SKTBCellDeleteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				032406192016CF62000DD741 /* SKTBCellDeleteDemoTests.m */,
+				0324061B2016CF62000DD741 /* Info.plist */,
+			);
+			path = SKTBCellDeleteDemoTests;
+			sourceTree = "<group>";
+		};
+		032406232016CF62000DD741 /* SKTBCellDeleteDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				032406242016CF62000DD741 /* SKTBCellDeleteDemoUITests.m */,
+				032406262016CF62000DD741 /* Info.plist */,
+			);
+			path = SKTBCellDeleteDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032405FB2016CF61000DD741 /* SKTBCellDeleteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032406292016CF62000DD741 /* Build configuration list for PBXNativeTarget "SKTBCellDeleteDemo" */;
+			buildPhases = (
+				032405F82016CF61000DD741 /* Sources */,
+				032405F92016CF61000DD741 /* Frameworks */,
+				032405FA2016CF61000DD741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKTBCellDeleteDemo;
+			productName = SKTBCellDeleteDemo;
+			productReference = 032405FC2016CF61000DD741 /* SKTBCellDeleteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		032406142016CF62000DD741 /* SKTBCellDeleteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0324062C2016CF62000DD741 /* Build configuration list for PBXNativeTarget "SKTBCellDeleteDemoTests" */;
+			buildPhases = (
+				032406112016CF62000DD741 /* Sources */,
+				032406122016CF62000DD741 /* Frameworks */,
+				032406132016CF62000DD741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032406172016CF62000DD741 /* PBXTargetDependency */,
+			);
+			name = SKTBCellDeleteDemoTests;
+			productName = SKTBCellDeleteDemoTests;
+			productReference = 032406152016CF62000DD741 /* SKTBCellDeleteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0324061F2016CF62000DD741 /* SKTBCellDeleteDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0324062F2016CF62000DD741 /* Build configuration list for PBXNativeTarget "SKTBCellDeleteDemoUITests" */;
+			buildPhases = (
+				0324061C2016CF62000DD741 /* Sources */,
+				0324061D2016CF62000DD741 /* Frameworks */,
+				0324061E2016CF62000DD741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032406222016CF62000DD741 /* PBXTargetDependency */,
+			);
+			name = SKTBCellDeleteDemoUITests;
+			productName = SKTBCellDeleteDemoUITests;
+			productReference = 032406202016CF62000DD741 /* SKTBCellDeleteDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032405F42016CF61000DD741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AY;
+				TargetAttributes = {
+					032405FB2016CF61000DD741 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+					};
+					032406142016CF62000DD741 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 032405FB2016CF61000DD741;
+					};
+					0324061F2016CF62000DD741 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 032405FB2016CF61000DD741;
+					};
+				};
+			};
+			buildConfigurationList = 032405F72016CF61000DD741 /* Build configuration list for PBXProject "SKTBCellDeleteDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032405F32016CF61000DD741;
+			productRefGroup = 032405FD2016CF61000DD741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032405FB2016CF61000DD741 /* SKTBCellDeleteDemo */,
+				032406142016CF62000DD741 /* SKTBCellDeleteDemoTests */,
+				0324061F2016CF62000DD741 /* SKTBCellDeleteDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032405FA2016CF61000DD741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324060F2016CF62000DD741 /* LaunchScreen.storyboard in Resources */,
+				0324060C2016CF62000DD741 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032406132016CF62000DD741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324061E2016CF62000DD741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032405F82016CF61000DD741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032406072016CF62000DD741 /* ViewController.m in Sources */,
+				032406042016CF62000DD741 /* AppDelegate.m in Sources */,
+				032406012016CF62000DD741 /* main.m in Sources */,
+				032406372016D4A4000DD741 /* OneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032406112016CF62000DD741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324061A2016CF62000DD741 /* SKTBCellDeleteDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324061C2016CF62000DD741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032406252016CF62000DD741 /* SKTBCellDeleteDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		032406172016CF62000DD741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032405FB2016CF61000DD741 /* SKTBCellDeleteDemo */;
+			targetProxy = 032406162016CF62000DD741 /* PBXContainerItemProxy */;
+		};
+		032406222016CF62000DD741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032405FB2016CF61000DD741 /* SKTBCellDeleteDemo */;
+			targetProxy = 032406212016CF62000DD741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0324060D2016CF62000DD741 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0324060E2016CF62000DD741 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032406272016CF62000DD741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		032406282016CF62000DD741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0324062A2016CF62000DD741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKTBCellDeleteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTBCellDeleteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0324062B2016CF62000DD741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKTBCellDeleteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTBCellDeleteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0324062D2016CF62000DD741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKTBCellDeleteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTBCellDeleteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKTBCellDeleteDemo.app/SKTBCellDeleteDemo";
+			};
+			name = Debug;
+		};
+		0324062E2016CF62000DD741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKTBCellDeleteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTBCellDeleteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKTBCellDeleteDemo.app/SKTBCellDeleteDemo";
+			};
+			name = Release;
+		};
+		032406302016CF62000DD741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKTBCellDeleteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTBCellDeleteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKTBCellDeleteDemo;
+			};
+			name = Debug;
+		};
+		032406312016CF62000DD741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKTBCellDeleteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTBCellDeleteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKTBCellDeleteDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032405F72016CF61000DD741 /* Build configuration list for PBXProject "SKTBCellDeleteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032406272016CF62000DD741 /* Debug */,
+				032406282016CF62000DD741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032406292016CF62000DD741 /* Build configuration list for PBXNativeTarget "SKTBCellDeleteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324062A2016CF62000DD741 /* Debug */,
+				0324062B2016CF62000DD741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0324062C2016CF62000DD741 /* Build configuration list for PBXNativeTarget "SKTBCellDeleteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324062D2016CF62000DD741 /* Debug */,
+				0324062E2016CF62000DD741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0324062F2016CF62000DD741 /* Build configuration list for PBXNativeTarget "SKTBCellDeleteDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032406302016CF62000DD741 /* Debug */,
+				032406312016CF62000DD741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032405F42016CF61000DD741 /* Project object */;
+}
