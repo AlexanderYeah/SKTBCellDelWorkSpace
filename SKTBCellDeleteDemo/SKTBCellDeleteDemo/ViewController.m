@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "OneViewController.h"
-
+#import "TwoViewController.h"
 #define SCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
@@ -25,7 +25,7 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-	NSArray *menuArr = @[@"水平柱状",@"Bounces",@"Tada",@"Pulse",@"Shake",@"Swing",@"Snap",@"Bounce2",@"Expand",@"Hinge",@"Drop"];
+	NSArray *menuArr = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"Bounce2",@"Expand",@"Hinge",@"Drop"];
 	CGFloat btn_padding = 30;
 	CGFloat btn_w = (SCREEN_WIDTH - 5 * btn_padding)/4;
 	CGFloat btn_h = 35;
@@ -71,7 +71,9 @@
     break;
     case 1:{
 		// Sample2
-		
+		TwoViewController *twoVC = [[TwoViewController alloc]init];
+		twoVC.view.backgroundColor = [UIColor whiteColor];
+		[self.navigationController pushViewController:twoVC animated:YES];
 	}
 	break;
 	case 2:{

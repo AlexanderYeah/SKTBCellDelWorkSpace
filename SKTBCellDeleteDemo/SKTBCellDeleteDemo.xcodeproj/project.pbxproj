@@ -15,6 +15,8 @@
 		0324061A2016CF62000DD741 /* SKTBCellDeleteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406192016CF62000DD741 /* SKTBCellDeleteDemoTests.m */; };
 		032406252016CF62000DD741 /* SKTBCellDeleteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406242016CF62000DD741 /* SKTBCellDeleteDemoUITests.m */; };
 		032406372016D4A4000DD741 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032406362016D4A4000DD741 /* OneViewController.m */; };
+		03F5FC6B2040F9D400D01496 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F5FC6A2040F9D400D01496 /* TwoViewController.m */; };
+		03F5FC6F2040FB8C00D01496 /* SecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F5FC6E2040FB8C00D01496 /* SecondCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,11 @@
 		032406262016CF62000DD741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		032406352016D4A4000DD741 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		032406362016D4A4000DD741 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		03F5FC692040F9D400D01496 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		03F5FC6A2040F9D400D01496 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		03F5FC6C2040F9FB00D01496 /* tb.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tb.pch; sourceTree = "<group>"; };
+		03F5FC6D2040FB8C00D01496 /* SecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCell.h; sourceTree = "<group>"; };
+		03F5FC6E2040FB8C00D01496 /* SecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +109,7 @@
 		032405FE2016CF61000DD741 /* SKTBCellDeleteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				03F5FC682040F9C000D01496 /* Two */,
 				032406022016CF62000DD741 /* AppDelegate.h */,
 				032406032016CF62000DD741 /* AppDelegate.m */,
 				032406052016CF62000DD741 /* ViewController.h */,
@@ -120,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				032406002016CF62000DD741 /* main.m */,
+				03F5FC6C2040F9FB00D01496 /* tb.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +149,17 @@
 				032406262016CF62000DD741 /* Info.plist */,
 			);
 			path = SKTBCellDeleteDemoUITests;
+			sourceTree = "<group>";
+		};
+		03F5FC682040F9C000D01496 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				03F5FC692040F9D400D01496 /* TwoViewController.h */,
+				03F5FC6A2040F9D400D01496 /* TwoViewController.m */,
+				03F5FC6D2040FB8C00D01496 /* SecondCell.h */,
+				03F5FC6E2040FB8C00D01496 /* SecondCell.m */,
+			);
+			path = Two;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +229,7 @@
 				TargetAttributes = {
 					032405FB2016CF61000DD741 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 7DC4XMJV5E;
+						DevelopmentTeam = 35T94Q6EVP;
 						ProvisioningStyle = Automatic;
 					};
 					032406142016CF62000DD741 = {
@@ -280,7 +300,9 @@
 				032406072016CF62000DD741 /* ViewController.m in Sources */,
 				032406042016CF62000DD741 /* AppDelegate.m in Sources */,
 				032406012016CF62000DD741 /* main.m in Sources */,
+				03F5FC6B2040F9D400D01496 /* TwoViewController.m in Sources */,
 				032406372016D4A4000DD741 /* OneViewController.m in Sources */,
+				03F5FC6F2040FB8C00D01496 /* SecondCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +443,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				DEVELOPMENT_TEAM = 35T94Q6EVP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKTBCellDeleteDemo/tb.pch";
 				INFOPLIST_FILE = SKTBCellDeleteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTBCellDeleteDemo;
@@ -433,7 +456,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				DEVELOPMENT_TEAM = 35T94Q6EVP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKTBCellDeleteDemo/tb.pch";
 				INFOPLIST_FILE = SKTBCellDeleteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTBCellDeleteDemo;
@@ -510,6 +534,7 @@
 				0324062B2016CF62000DD741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0324062C2016CF62000DD741 /* Build configuration list for PBXNativeTarget "SKTBCellDeleteDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +543,7 @@
 				0324062E2016CF62000DD741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0324062F2016CF62000DD741 /* Build configuration list for PBXNativeTarget "SKTBCellDeleteDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +552,7 @@
 				032406312016CF62000DD741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
